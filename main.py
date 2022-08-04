@@ -72,13 +72,11 @@ if __name__ == '__main__':
     dp = updater.dispatcher
 
     # Commands handler which callback our commands when user ask for it
-    dp.add_handler(CommandHandler('start', start))
+    dp.add_handler(CommandHandler('yardim', yardim))
 
-    dp.add_handler(CommandHandler('help', help))
+    dp.add_handler(CommandHandler('iletisim', iletisim))
 
-    dp.add_handler(CommandHandler('cmd', cmd))
-
-    dp.add_handler(CommandHandler('notes', notes))
+    dp.add_handler(CommandHandler('hizmetler', hizmetler))
 
     dp.add_handler(CommandHandler('list', list))
 
