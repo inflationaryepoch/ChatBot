@@ -22,7 +22,7 @@ def yardim(update, context):
 
 
 def iletisim(update, context):
-    update.message.reply_text('📍 NEF 22 Ataköy/İstanbul\n\n📞 +905306480734\n\n📩 WhatsApp hattımız\n <i>text</i>**bold**')
+    update.message.reply_text('📍 NEF 22 Ataköy/İstanbul\n\n📞 +905306480734\n\n📩 WhatsApp hattımız\n <i>text</i>**bold**', parse_mode='HTML')
     update.message.reply_text('*_bold and italic_*', parse_mode='MarkdownV2')
 
 
