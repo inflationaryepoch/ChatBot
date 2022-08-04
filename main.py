@@ -16,20 +16,16 @@ logging.info('Starting Bot...')
 
 # We defined this fuction to use as commands
 # all update.message are reply from bots to user
-def start(update, context):
-    update.message.reply_text(
-        'Hello there, I\'m an AI bot who can converse with you or assist you in completing tasks.\n To start, say hey, hi, or hello.')
 
-
-def help(update, context):
+def yardim(update, context):
     update.message.reply_text('Type cmd for options or click /cmd')
 
 
-def cmd(update, context):
-    update.message.reply_text('Availble Commands:\nFor notes- /notes\n ')
+def iletisim(update, context):
+    update.message.reply_text('📍 NEF 22 Ataköy/İstanbul\n\n📞 +905306480734\n\n📩 WhatsApp hattımız')
 
 
-def notes(update, context):
+def hizmetler(update, context):
     update.message.reply_text(
         'Soon, you\'ll be able to get your hands on some notes.')
 
