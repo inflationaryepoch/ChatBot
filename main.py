@@ -26,9 +26,21 @@ def iletisim(update, context):
 'Bize Ulaşın\n 📞 +905306480734\n\n <a href="http://wa.me/905411954888">📩 WhatsApp hattımız</a>\n\n mzndanismanlik@gmail.com\n Nef 22 Ataköy/İstanbul', disable_web_page_preview=True, parse_mode="HTML")
 
 
-def hizmetler(update, context):
+def danismanlik(update, context):
     update.message.reply_text(
-        'Soon, you\'ll be able to get your hands on some notes.')
+        'Danışmanlığımızda:\n
+ ■ Hesap açılışı yapılıyor. (şirketli veya şirketsiz)\n
+ ■ 15 farklı ürün analiz yöntemi öğretiliyor.\n
+ ■ Yazılım kullanımı öğretiliyor.\n
+ ■ Seller Central kullanımı öğretiliyor.\n
+ ■ Hesap sağlığı ve Suspend türleri öğretiliyor.\n
+ ■ Suspend olmamak için taktikler öğretiliyor.\n
+ ■ Yazılım ve Seller Central ayarları yapılıyor.\n
+ ■ Ürün yüklenmesi ve gönderimi öğretiliyor.\n
+ ■ Müşteri ilişkileri ve iade yöntemi öğretiliyor.\n
+ ■ <b>Büyük Dropshippingcilerin bazı ileri taktikleri anlatılıyor</b>\n
+ ■ Feedback alma yolları (garantili) öğretiliyor.\n
+ ■ Buybox alma ayarı yapılıyor. (%80 çalışıyor)', parse_mode="HTML")
 
 
 def list(update, context):
