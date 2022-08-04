@@ -28,9 +28,7 @@ def iletisim(update, context):
 
 def danismanlik(update, context):
     update.message.reply_text(
- 'Danışmanlığımızda:\n
-  ■ Hesap açılışı yapılıyor. (şirketli veya şirketsiz)\n
- ■ 15 farklı ürün analiz yöntemi öğretiliyor.', parse_mode="HTML")
+ 'Danışmanlığımızda:\n ■ Hesap açılışı yapılıyor. (şirketli veya şirketsiz)\n ■ 15 farklı ürün analiz yöntemi öğretiliyor.', parse_mode="HTML")
 
 
 def list(update, context):
