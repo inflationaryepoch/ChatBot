@@ -18,7 +18,7 @@ logging.info('Starting Bot...')
 # all update.message are reply from bots to user
 
 def yardim(update, context):
-    update.message.reply_text('Kullanabileceğiniz tüm komutlar\n /ucretsiz: ücretsiz Amazon Dropshipping kursumuz 🔥\n /suspend: verdiğimiz Suspend destekleri\n /danismanlik: danışmanlık hizmetlerimiz\n /iletisim: MZN Danışmanlık İletişim')
+    update.message.reply_text('Kullanabileceğiniz tüm komutlar\n\n /ucretsiz: ücretsiz Amazon Dropshipping kursumuz 🔥\n\n /suspend: verdiğimiz Suspend destekleri\n\n /danismanlik: danışmanlık hizmetlerimiz\n\n /iletisim: MZN Danışmanlık İletişim')
 
 
 def iletisim(update, context):
