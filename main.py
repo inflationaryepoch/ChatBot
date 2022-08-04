@@ -95,7 +95,6 @@ if __name__ == '__main__':
     dp.add_handler(MessageHandler(Filters.text, handle_message))
 
     # Log all errors
-    dp.add_error_handler(error)
 
     # Run the bot
     updater.start_polling(1.0)
