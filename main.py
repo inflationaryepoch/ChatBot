@@ -75,8 +75,6 @@ if __name__ == '__main__':
 
     dp.add_handler(CommandHandler('danismanlik', danismanlik))
 
-    dp.add_handler(CommandHandler('suspend', suspend))
-
     dp.add_handler(CommandHandler('source_code', source_code))
 
     dp.add_handler(CommandHandler('projects', projects))
