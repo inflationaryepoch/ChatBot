@@ -28,9 +28,7 @@ def iletisim(update, context):
 
 def danismanlik(update, context):
     update.message.reply_text(
-        'Danışmanlığımızda:\n
- ■ Hesap açılışı yapılıyor. (şirketli veya şirketsiz)\n
- ■ 15 farklı ürün analiz yöntemi öğretiliyor.\n
+ 'Danışmanlığımızda:\n ■ Hesap açılışı yapılıyor. (şirketli veya şirketsiz)\n ■ 15 farklı ürün analiz yöntemi öğretiliyor.\n
  ■ Yazılım kullanımı öğretiliyor.\n
  ■ Seller Central kullanımı öğretiliyor.\n
  ■ Hesap sağlığı ve Suspend türleri öğretiliyor.\n
