@@ -35,6 +35,10 @@ def suspend(update, context):
     update.message.reply_text(
 '<b>Suspend Desteğimiz:</b>\n\n ■ Fair Price (VİDEO KANITLI)\n ■ Fikri Mülkiyet (VİDEO KANITLI)\n ■ Açılış Suspendi (VİDEO KANITLI)\n ■ Kısıtlanmış Ürün Suspendi\n ■ Dropshipping Policy Suspend (VİDEO KANITLI)\n ■ Hızlı Satış Suspendi\n ■ İlişki Suspendi (yalnızca hesabı tanıyorsanız) (VİDEO KANITLI)\n ■ Panelden Silinme Suspendi\n ■ 3 ASIN Suspendi (VİDEO KANITLI)', parse_mode="HTML")
 
+
+def ucretsiz(update,context):
+    update.message.reply_text(
+'Ücretsiz Amazon Dropshipping eğitimimiz:\nhttps://www.udemy.com/course/amazon-dropshipping-egitimi-2022-en-guncel-sfrdan-zirveye/', disable_web_page_preview=True)
 # there two methods to crete functions to get repond from bot this is 2nd one
 
 
@@ -78,6 +82,8 @@ if __name__ == '__main__':
     dp.add_handler(CommandHandler('iletisim', iletisim))
 
     dp.add_handler(CommandHandler('danismanlik', danismanlik))
+
+    dp.add_handler(CommandHandler('ucretsiz', ucretsiz))
 
     dp.add_handler(CommandHandler('suspend', suspend))
 
