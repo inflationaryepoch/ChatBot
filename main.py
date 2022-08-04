@@ -23,7 +23,7 @@ def yardim(update, context):
 
 def iletisim(update, context):
     update.message.reply_text(
-'Bize Ulaşın\n  📞 +905306480734\n\n <a href="http://wa.me/905411954888">📩 WhatsApp hattımız</a> , \n\n mzndanismanlik@gmail.com\n Nef 22 Ataköy/İstanbul', parse_mode='HTML' disable_web_page_preview=True)
+'Bize Ulaşın\n  📞 +905306480734\n\n <a href="http://wa.me/905411954888">📩 WhatsApp hattımız</a> , \n\n mzndanismanlik@gmail.com\n Nef 22 Ataköy/İstanbul', disable_web_page_preview=True, parse_mode="HTML")
 
 
 def hizmetler(update, context):
