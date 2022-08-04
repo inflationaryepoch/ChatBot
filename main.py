@@ -77,8 +77,6 @@ if __name__ == '__main__':
 
     dp.add_handler(CommandHandler('iletisim', iletisim))
 
-    dp.add_handler(CommandHandler('hizmetler', hizmetler))
-
     dp.add_handler(CommandHandler('danismanlik', danismanlik))
 
     dp.add_handler(CommandHandler('socials', socials))
