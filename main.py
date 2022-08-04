@@ -31,10 +31,6 @@ def danismanlik(update, context):
  '</b>Danışmanlık Hizmetimiz:</b>\n\n ■ Hesap açılışı yapılıyor. (şirketli veya şirketsiz)\n ■ 15 farklı ürün analiz yöntemi öğretiliyor.\n ■ Yazılım kullanımı öğretiliyor.\n ■ Seller Central kullanımı öğretiliyor.\n ■ Hesap sağlığı ve Suspend türleri öğretiliyor.\n ■ Suspend olmamak için taktikler öğretiliyor.\n ■ Yazılım ve Seller Central ayarları yapılıyor.\n ■ Ürün yüklenmesi ve gönderimi öğretiliyor.\n ■ Müşteri ilişkileri ve iade yöntemi öğretiliyor.\n ■ <b>Büyük Dropshippingcilerin bazı ileri taktikleri anlatılıyor.</b>\n ■ Feedback alma yolları (garantili) öğretiliyor.\n ■ Buybox alma ayarı yapılıyor. (%80 çalışıyor)', parse_mode="HTML")
 
 
-def suspend(update, context):
-    update.message.reply_text(
-        '</b>Suspend Desteğimiz:</b>\n\n ■ Fair Price (VİDEO KANITLI)\n ■ Fikri Mülkiyet (VİDEO KANITLI)\n ■ Açılış Suspendi (VİDEO KANITLI)\n ■ Kısıtlanmış Ürün Suspendi\n ■ Dropshipping Policy Suspend (VİDEO KANITLI)\n ■ Hızlı Satış Suspendi\n ■ İlişki Suspendi (yalnızca hesabı tanıyorsanız) (VİDEO KANITLI)\n ■ Panelden Silinme Suspendi\n ■ 3 ASIN Suspendi (VİDEO KANITLI)', parse_mode="HTML")
-
 # there two methods to crete functions to get repond from bot this is 2nd one
 
 
