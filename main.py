@@ -22,7 +22,7 @@ def yardim(update, context):
 
 
 def iletisim(update, context):
-    update.message.reply_text('📍 NEF 22 Ataköy/İstanbul\n\n📞 +905306480734\n\n📩 WhatsApp hattımız\n [inline URL](http://www.example.com/)')
+    update.message.reply_text('📍 NEF 22 Ataköy/İstanbul\n\n📞 +905306480734\n\n📩 WhatsApp hattımız\n ' [inline URL](http://www.example.com/))
 
 
 def hizmetler(update, context):
