@@ -20,7 +20,8 @@ logging.info('Starting Bot...')
 def yardim(update, context):
    context.bot.send_message(chat_id=update.effective_chat.id,
                              text='Kullanabileceğiniz tüm komutlar\n /ucretsiz: ücretsiz Amazon Dropshipping kursumuz 🔥\n\n /suspend: verdiğimiz Suspend destekleri\n\n /danismanlik: danışmanlık hizmetlerimiz\n\n /iletisim: MZN Danışmanlık İletişim')
-
+bot.api.send_message(chat_id: message.chat.id, reply_to_message_id: message.message_id, text: "Deneme, #{message.from.first_name}")
+bot.api.send_message(chat_id: message.chat.id, text: 'deneme', reply_markup: statuses, reply_to_message_id: message.id)
 
 def iletisim(update, context):
     context.bot.send_message(chat_id=update.effective_chat.id,
