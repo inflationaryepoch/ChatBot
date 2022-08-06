@@ -17,6 +17,10 @@ logging.info('Starting Bot...')
 # We defined this fuction to use as commands
 # all update.message are reply from bots to user
 
+def start(update, context):
+    update.message.reply_text('Kullanabileceğiniz tüm komutlar\n /ucretsiz: ücretsiz Amazon Dropshipping kursumuz 🔥\n\n /suspend: verdiğimiz Suspend destekleri\n\n /danismanlik: danışmanlık hizmetlerimiz\n\n /iletisim: MZN Danışmanlık İletişim')
+
+
 def yardim(update, context):
      context.bot.send_message(chat_id=update.effective_chat.id,
                              text='Kullanabileceğiniz tüm komutlar\n /ucretsiz: ücretsiz Amazon Dropshipping kursumuz 🔥\n\n /suspend: verdiğimiz Suspend destekleri\n\n /danismanlik: danışmanlık hizmetlerimiz\n\n /iletisim: MZN Danışmanlık İletişim')
